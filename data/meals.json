@@ -1,0 +1,17 @@
+[
+    {
+        "image": "seafoods.jpg",
+        "name": "SeaFood Special",
+        "items": [{ "name":"Fried Salmon Special", "description":"A very special salmon, fried."}]
+    },
+    {
+        "image": "desserts.jpg",
+        "name": "Sumptuous Desserts",
+        "items": [{ "name":"Choco Ice Cream Sandwich", "description":"It's ice cream, it's chocolate, it's a sandwich!"}]
+    },
+    {
+        "image": "buffet.jpg",
+        "name": "Buffet",
+        "items": [{ "name":"Mixed Buffet", "description":"All the food is mixed together in one tray. Have fun with this flavor adventure!"}]
+    }
+]
