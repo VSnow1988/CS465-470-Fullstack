@@ -6,7 +6,7 @@ const tripsList = async (req, res) => {
     Model
         .find({}) // empty filter for all
         .exec((err, trips) => { 
-            if (trips) { 
+            if (!trips) { 
                 return res 
                     .status (484)
                     .json({ "message": "trips not found" });
