@@ -47,13 +47,14 @@ export class EditTripComponent implements OnInit {
     this.tripService.getTrip(tripCode)
       .then(data => {
       console.log(data);
-      // Don't use editForm.setValue() as it will throw
+      // Don't use editForm.setValue() as it will throw consle error
       this.editForm.patchValue(data[0]);
     })
   }
 
   onSubmit() {
     this.submitted = true;
+    
     if (this.editForm.valid) {
       this.tripService.updateTrip(this.editForm.value)
       .then(data => {

@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Router } from "@angular/router"
+import { Router } from "@angular/router";
 import { Trip } from '../models/trip';
+import { TripDataService } from '../services/trip-data.service';
 
 
 @Component({
@@ -10,18 +11,23 @@ import { Trip } from '../models/trip';
 })
 export class TripCardComponent implements OnInit {
 
-  @Input('trip') trip: any;
+  @Input('trip') trip: Trip;
 
   constructor(
-    private router: Router
+    private router: Router,
+    private tripService: TripDataService
   ) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
   private editTrip(trip: Trip): void {
     localStorage.removeItem("tripCode"); // Store in local browser for edit component
     localStorage.setItem("tripCode", trip.code);
     this.router.navigate(['edit-trip']);
+  }
+
+  private deleteTrip(trip: Trip): void {
+    this.tripService.deleteTrip("tripCode");
   }
 }

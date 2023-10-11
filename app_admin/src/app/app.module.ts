@@ -17,7 +17,7 @@ import { EditTripComponent } from './edit-trip/edit-trip.component';
     TripListingComponent,
     TripCardComponent,
     AddTripComponent,
-    EditTripComponent
+    EditTripComponent,
   ],
   imports: [
     BrowserModule,
