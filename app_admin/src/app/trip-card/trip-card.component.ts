@@ -28,6 +28,6 @@ export class TripCardComponent implements OnInit {
   }
 
   private deleteTrip(trip: Trip): void {
-    this.tripService.deleteTrip("tripCode");
+    this.tripService.deleteTrip(trip.code);
   }
 }

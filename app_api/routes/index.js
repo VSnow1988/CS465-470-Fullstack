@@ -11,6 +11,7 @@ router
 router
     .route('/trips/:tripCode')
     .get(tripsController.tripsFindCode)
+    .delete(tripsController.tripsDeleteTrip)
     .put(tripsController.tripsUpdateTrip);
 
 
