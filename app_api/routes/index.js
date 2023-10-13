@@ -17,13 +17,13 @@ router
 router
     .route('/trips')
     .get(tripsController.tripsList)
-    .post(tripsController.tripsAddTrip);
+    .post(auth, tripsController.tripsAddTrip);
 
 router
     .route('/trips/:tripCode')
     .get(tripsController.tripsFindCode)
-    .delete(tripsController.tripsDeleteTrip)
-    .put(tripsController.tripsUpdateTrip);
+    .delete(auth, tripsController.tripsDeleteTrip)
+    .put(auth, tripsController.tripsUpdateTrip);
 
 
 module.exports = router;
