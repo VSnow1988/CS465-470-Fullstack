@@ -73,7 +73,7 @@ const tripsAddTrip = async (req, res) => {
         });
 }
 
-// PUT: Update trip
+// PUT: /api/trips/:tripcode Update trip
 const tripsUpdateTrip = async (req, res) => {
     console.log(req, body);
     model

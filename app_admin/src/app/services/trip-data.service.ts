@@ -22,8 +22,6 @@ export class TripDataService {
       .then(response => response.json() as Trip)
       .catch(this.handleError);
   }
-  
-
 
   public getTrips(): Promise<Trip[]>{
     console.log('Inside TripDataService#getTrips');
