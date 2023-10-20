@@ -1,7 +1,9 @@
 # CS465
 SNHU CS465 - Full Stack Development I
 
-Final Project: A MEAN-stack website for a fictional travel agency with a client-facing and admin site.
+# Final Project: A MEAN-stack website for a fictional travel agency using an client-facing Express Handlebars site, REST API, and Angular admin site with a software design document.
+
+# Reflection Journal
 
 - Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
@@ -19,3 +21,8 @@ JSON is a syntax for creating objects with simple keys and values that can easil
 
 This was done in the beginning of the project when changing from HTML pages to the Express Handlebars (HBS) pages. Some repeated parts of the code were moved into another document, and then inserted with a handlebars tag into the page which greatly reduced the length of the code. The same thing was done with some of the Angular pages as more components were added. The main purpose of this is for organization and to reduce redundancy - this makes the application runtime and compilation faster, and is easier to edit for the programmer.
 
+- Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+
+The methods used in a RESTful API are the HTTP GET (retrieve data), PUT (update data), DELETE (remove data), and POST (add data) requests. These are separated for added security, and the application can be set to allow these requests only from specific users or servers. Security in API's is extremely important: even if sensitive data is not being stored in the database, it could be tampered with or accidentally altered so that the application does not function as it is needed to. Encryption alone is not safe enough, because an attacker or accident could still delete, alter or retrieve data that is needed for the application to function. The first line of defense is to ensure only authorized and confirmed requests are made to interact with an application's data using these tested endpoints.
+
+- How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
