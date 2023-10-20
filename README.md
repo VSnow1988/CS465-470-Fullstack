@@ -1,7 +1,8 @@
 # CS465
 SNHU CS465 - Full Stack Development I
 
-# Final Project: A MEAN-stack website for a fictional travel agency using an client-facing Express Handlebars site, REST API, and Angular admin site with a software design document.
+# Final Project:
+ A MEAN-stack website for a fictional travel agency using an client-facing Express Handlebars site, REST API, and Angular admin site with a software design document.
 
 # Reflection Journal
 
@@ -26,3 +27,5 @@ This was done in the beginning of the project when changing from HTML pages to t
 The methods used in a RESTful API are the HTTP GET (retrieve data), PUT (update data), DELETE (remove data), and POST (add data) requests. These are separated for added security, and the application can be set to allow these requests only from specific users or servers. Security in API's is extremely important: even if sensitive data is not being stored in the database, it could be tampered with or accidentally altered so that the application does not function as it is needed to. Encryption alone is not safe enough, because an attacker or accident could still delete, alter or retrieve data that is needed for the application to function. The first line of defense is to ensure only authorized and confirmed requests are made to interact with an application's data using these tested endpoints.
 
 - How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+
+This particularly challenging course has increased my confidence in overcoming obstacles and helped me further develop organized plans for solving problems when the development process does not go as expected. MEAN has been challenging for me in the past, and in this class I worked with a lot of outdated material or guides that were missing steps. This meant I had to search for solutions on my own and research different versions of the technologies used to figure out how to work with them, and continuously communicate with my professor, announcements and other students as if it were a real development team and become more comfortable with searching documentation and navigating forums for relevant information. I learned and reviewed how to set up the MEAN technologies, why and when to use them, make use of the command line inteface for more efficient development and version control, and to more fully understand a RESTful API structure. It also helped to practice my skills in software/system design, clean and documented programming, debugging, the planning process for development, and quickly understanding new languages, libraries and technologies to work together with them in one application.
