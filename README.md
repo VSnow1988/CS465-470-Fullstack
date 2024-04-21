@@ -1,10 +1,12 @@
-# CS465
+# CS465 & CS470
 SNHU CS465 - Full Stack Development I
+SNHU CS470 - Full Stack Development II
 
-# Final Project:
- A MEAN-stack website for a fictional travel agency using an client-facing Express Handlebars site, REST API, and Angular admin site with a software design document.
+## Final Projects:
+ 1. A MEAN-stack website for a fictional travel agency using an client-facing Express Handlebars site, REST API, and Angular admin site with a software design document.
+ 2. A video explaining cloud hosting with AWS and a website successfully using the services to host a full-stack web application.
 
-# Reflection Journal
+## Reflection Journal
 
 - Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
@@ -29,3 +31,4 @@ The methods used in a RESTful API are the HTTP GET (retrieve data), PUT (update 
 - How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
 
 This particularly challenging course has increased my confidence in overcoming obstacles and helped me further develop organized plans for solving problems when the development process does not go as expected. MEAN has been challenging for me in the past, and in this class I worked with a lot of outdated material or guides that were missing steps so that a large portion of the work was debugging logic or syntax errors that were difficult to spot and not easily caught by the IDE alone. This meant I had to search for solutions on my own and research different versions of the technologies used to figure out how to work with them, and continuously communicate with my professor, announcements and other students as if it were a real development team and become more comfortable with searching documentation and navigating forums for relevant information. I learned and reviewed how to set up the MEAN technologies, why and when to use them, make use of the command line inteface for more efficient development and version control, and to more fully understand a RESTful API structure. It also helped to practice my skills in software/system design, clean and documented programming, debugging, the planning process for development, and quickly understanding new languages, libraries and technologies to work together with them in one application.
+
