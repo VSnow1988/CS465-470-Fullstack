@@ -4,7 +4,7 @@ SNHU CS470 - Full Stack Development II
 
 ## Final Projects:
  1. A MEAN-stack website for a fictional travel agency using an client-facing Express Handlebars site, REST API, and Angular admin site with a software design document.
- 2. A video explaining cloud hosting with AWS and a website successfully using the services to host a full-stack web application.
+ 2. A video explaining cloud hosting with AWS and a website successfully using the services to host a full-stack web application adapted for its tools.
 
 ## Reflection Journal
 
